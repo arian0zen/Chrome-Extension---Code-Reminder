@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-radius;
+    font-family: "Rubik", sans-serif;
+  }
+  
+body {
+    width: 400px;
+    height: 580px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+  
+  .container {
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    background-color: #daecfd;
+  }
+  
+  .items {
+    width: 350px;
+    background: #fffffe;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-top: 10px solid #0B5AA2;
+  }
+  
+  .items-head p {
+    padding: 5px 20px;
+    margin: 10px;
+    color: #0B5AA2;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .items-head hr {
+    width: 20%;
+    margin: 0px 30px;
+    border: 1px solid #0B5AA2;
+  }
+  
+  .items-body {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .items-body-content {
+    padding: 10px;
+    padding-right: 0px;
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    font-size: 16px;
+    grid-gap: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+  
+  .items-body-content:hover {
+    border-radius: 15px;
+    border: 1px solid #0B5AA2;
+  }
+  
+  .items-body-content i {
+    align-self: center;
+    font-size: 15px;
+    color: #0B5AA2;
+    font-weight: bold;
+    animation: icon 1.5s infinite forwards;
+  }
+
+  
+#gfg_potd{
+    color: green;
+}
+
+#ninjas_potd{
+    color: rgb(218, 143, 4);
+}
+#ninjas_potd2{
+    color: rgb(218, 143, 4);
+}
+#leetCode_potd{
+    color: black;
+}
+#codeChef_potd{
+    color: black;
+}
