@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-radius;
     font-family: "Rubik", sans-serif;
@@ -6,26 +7,26 @@
 body {
     width: 400px;
     height: 580px;
-    background-color: aliceblue;
+    background-color: #daecfd;
     display: flex;
     justify-content: center;
 }
   
-  .container {
-    border: 1px solid black;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    display: grid;
-    place-items: center;
-    background-color: #daecfd;
-  }
+.container {
+  position: absolute;
+  top: 34px;
+  right: 0;
+  bottom: 29px;
+  left: 0;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  background-color: #daecfd;
+}
   
   .items {
     width: 350px;
+    height: 470px;
     background: #fffffe;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     border-top: 10px solid #0B5AA2;
@@ -88,8 +89,28 @@ body {
     color: rgb(218, 143, 4);
 }
 #leetCode_potd{
-    color: rgb(255, 101, 101);
+      color: #fa572e;
 }
 #codeChef_potd{
     color: black;
+}
+
+
+/* time and date credit codepen : ryomario */
+#clock,#date{
+  user-select:none;
+}
+.glow{
+  align-self: center;
+  color: #0B5AA2;
+  font-weight: bold;
+  font-size: 18px;
+  animation:glow 1s ease-in-out infinite alternate;
+  -moz-animation:glow 1s ease-in-out infinite alternate;
+  -webkit-animation:glow 1s ease-in-out infinite alternate;
+}
+.glow.mini{
+  /* align-self: center; */
+  font-size: 24px;
+  color: #a00030;
 }
