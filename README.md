@@ -10,13 +10,17 @@ This extension just have a simple yet very useful feature, it fetches 'potd' fro
 * One click will take you direct to the problem solving page
 * One click on the extension to remind you thay you might solve these today
 
-### Screenshot
+### Screenshot || DEMO
 
 
 
 
 
-https://user-images.githubusercontent.com/68517592/187077081-20621379-541f-40e0-bf1e-8b96cdc7a510.mp4
+
+
+https://user-images.githubusercontent.com/68517592/187304807-e063917b-4aeb-49ae-a488-82ada7cdcfea.mp4
+
+
 
 
 
