@@ -1,6 +1,7 @@
 ## Code Reminder
 
-This extension just have a simple yet very useful feature, it fetches 'potd' from various DSA problem solving websites 
+This extension just have a simple yet very useful feature, it fetches 'potd' from various DSA problem solving websites
+This ectension fetches problem of the day from LeetCode, Geeks for Geeks and Coding Ninjas
 
 
 ### What does it do? and why it's helpful?
