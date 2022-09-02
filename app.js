@@ -49,7 +49,7 @@ fetch(CodingNinjas_API_ENDPOINT)
 fetch("https://desolate-springs-69998.herokuapp.com/")
     .then(data => data.json())
     .then(leetCode =>{
-        console.log(leetCode);
+        
         let leetCode_name = leetCode.question.title;
         const leetCode_difficulty = leetCode.question.difficulty;
         const leetCode_element = document.getElementById('leetCode_potd');
@@ -75,3 +75,4 @@ function displayTime(){
 }
 
 displayTime();
+
