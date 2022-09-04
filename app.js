@@ -66,8 +66,6 @@ fetch("https://desolate-springs-69998.herokuapp.com/")
     setInterval(displayTime,1000);
 
 function displayTime(){
-//   const timeNow = new Date();
-  
   document.getElementById('date').innerText = today.toLocaleString('en-US',{
     dateStyle:'full'
   });
