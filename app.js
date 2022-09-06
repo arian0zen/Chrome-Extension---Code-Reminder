@@ -73,4 +73,3 @@ function displayTime(){
 }
 
 displayTime();
-
