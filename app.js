@@ -73,3 +73,5 @@ function displayTime(){
 }
 
 displayTime();
+
+console.log(window.location.href)
